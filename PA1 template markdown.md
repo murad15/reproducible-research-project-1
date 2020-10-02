@@ -46,6 +46,7 @@ ggplot(Total_Steps, aes(x = steps)) +
     labs(title = "Daily Steps", x = "Steps", y = "Frequency")
 ## Warning: Removed 8 rows containing non-finite values (stat_bin).
 
+<img src="https://github.com/mGalarnyk/datasciencecoursera/blob/master/5_Reproducible_Research/project1/%F0%9D%99%BF%F0%9D%99%B0%F0%9D%9F%B7_%F0%9D%9A%9D%F0%9D%9A%8E%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%95%F0%9D%9A%8A%F0%9D%9A%9D%F0%9D%9A%8E_files/figure-markdown_github/unnamed-chunk-4-1.png?raw=true" alt="unnamed-chunk-4-1.png"/>
 
 Calculate and report the mean and median of the total number of steps taken per day
 Total_Steps[, .(Mean_Steps = mean(steps, na.rm = TRUE), Median_Steps = median(steps, na.rm = TRUE))]
